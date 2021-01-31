@@ -1,4 +1,4 @@
-package com.simplemobiletools.gallery.pro.activities
+package com.shaigerbi.gallery.activities
 
 import android.annotation.TargetApi
 import android.app.Activity
@@ -14,11 +14,11 @@ import com.simplemobiletools.commons.helpers.REAL_FILE_PATH
 import com.simplemobiletools.commons.helpers.ensureBackgroundThread
 import com.simplemobiletools.commons.helpers.isNougatPlus
 import com.simplemobiletools.commons.models.FileDirItem
-import com.simplemobiletools.gallery.pro.R
-import com.simplemobiletools.gallery.pro.dialogs.SaveAsDialog
-import com.simplemobiletools.gallery.pro.extensions.config
-import com.simplemobiletools.gallery.pro.extensions.fixDateTaken
-import com.simplemobiletools.gallery.pro.extensions.tryDeleteFileDirItem
+import com.shaigerbi.gallery.R
+import com.shaigerbi.gallery.dialogs.SaveAsDialog
+import com.shaigerbi.gallery.extensions.config
+import com.shaigerbi.gallery.extensions.fixDateTaken
+import com.shaigerbi.gallery.extensions.tryDeleteFileDirItem
 import ly.img.android.pesdk.PhotoEditorSettingsList
 import ly.img.android.pesdk.assets.filter.basic.FilterPackBasic
 import ly.img.android.pesdk.assets.font.basic.FontPackBasic
